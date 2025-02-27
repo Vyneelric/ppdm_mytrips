@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MyTrips</string>
+    <string name="title">Login</string>
+    <string name="subtitle">Please sign in to continue.</string>
+    <string name="email">E\-mail</string>
+    <string name="password">Password</string>
+    <string name="button">SING IN -></string>
+    <string name="question">Don\'t have an account?</string>
+    <string name="signup">Sing up</string>
+</resources>
