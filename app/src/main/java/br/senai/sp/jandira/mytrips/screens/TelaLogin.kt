@@ -17,6 +17,7 @@ import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.Icon
+import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextField
 import androidx.compose.runtime.Composable
@@ -85,7 +86,7 @@ fun TelaLogin(){
                 color = (Color.Gray),
                 fontWeight = FontWeight.Light
             )
-            TextField(
+            OutlinedTextField(
                 modifier = Modifier
                     .padding(bottom = 30.dp)
                     .fillMaxWidth()
@@ -107,7 +108,7 @@ fun TelaLogin(){
                     )
                 }
             )
-            TextField(
+            OutlinedTextField(
                 modifier = Modifier
                     .padding(bottom = 30.dp)
                     .fillMaxWidth()
